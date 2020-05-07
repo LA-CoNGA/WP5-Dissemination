@@ -63,10 +63,16 @@ Hemos dividido la información en tres categorías. Más información aquí: htt
 * Los socios externos
 * Los alumnos
 ## Opiniones y recomendaciones sobre la web
+* Web actual: http://laconga.redclara.net/
+
 A solicitud de la coordinación se hicieron esquemas y observaciones sobre la estructura del sitio web y la organización de la información.
+
 * El sitio debe integrar de forma organizada la información
+
 ![diagrama](./IdeasWEB/diagrama_LA-CoNGA.svg "Diagrama general")
+
 * Propuesta para vistas todo-en-uno (toda la información relevante debe estar disponible en una sola pantalla)
+
 ![web1](./IdeasWEB/web1_1.jpg "Opción 1")
 ![web2](./IdeasWEB/web1_2.jpg "Opción 2")
 ![web3](./IdeasWEB/web1_3.jpg "Opción 3")
