@@ -44,7 +44,7 @@ Hemos dividido la información en tres categorías. Más información aquí: htt
 ### Actividades
 * Website. TG: 1,2,3 y 4
 * Multidisciplinary outreach events. TG: 1 y 2  ← Seminarios de lanzamiento están aquí
-* Avances aquí:
+* Avances aquí: https://docs.google.com/presentation/d/1V8ojP1eHNZvc6lyYzRrFNnVZCqwJIQp0fX226l3Um_M
 * Data challenges. TG: 1 y 2
 * Citizen science. TG: 1,2,3 y 4
     * Avances aquí: https://github.com/LA-CoNGA/InformationMeetings/blob/master/WP5_Meetings/20200427_WP5_CS_01_minuta.md
@@ -64,6 +64,13 @@ Hemos dividido la información en tres categorías. Más información aquí: htt
 * Los alumnos
 ## Opiniones y recomendaciones sobre la web
 * Web actual: http://laconga.redclara.net/
+
+### Logos y tipografías
+* https://www.dropbox.com/sh/wqgn8qvmkj8754h/AAAmHKrkuf1qMHH7ThTJP2z9a?dl=0
+* https://github.com/LA-CoNGA/WP1-Preparation/tree/master/logos
+
+### Borrador de press-release
+* https://docs.google.com/document/d/1XNXuPHrrzjjTyHjcvDBPYt7qI-SgD3x526HKa4SKos0
 
 A solicitud de la coordinación se hicieron esquemas y observaciones sobre la estructura del sitio web y la organización de la información.
 
