@@ -1,7 +1,12 @@
 # LA-CoNGA Physics y su plan de comunicación
 ## Misión, visión y valores (MVV).
 * Enlace actualizado: XXXX
-* Estado de la discusión a lo interno del consorcio. Minutas: XXXXX
+* Estado de la discusión a lo interno del consorcio. Minutas: https://github.com/LA-CoNGA/InformationMeetings/blob/master/WP5_Meetings/20200501_WP5_mision_vision_valores_CoC_01_minuta.md
+
+Otros docs: 
+* Inglés 20200501: https://github.com/LA-CoNGA/InformationMeetings/blob/master/WP5_Meetings/20200501_CR-RC_LA-CoNGA_Physics_mission_and_vision.pdf
+* Inglés comentado: https://docs.google.com/document/d/1TTfpbJaMWmgEhHv74FAuqRBu_daEWE1vz2E6ivrPzzQ/edit#
+* Español: https://docs.google.com/document/d/1rHp_VV6J02UikkeUYsU1tdHISnzASKfjwNBDPpERxrk/edit
 ### Misión
 Nuestra misión es crear una Comunidad Latinoamericana y Europea de Investigación y Aprendizaje de Física Avanzada para desarrollar capacidades, apoyando la modernización del sistema de educación superior y promoviendo valores de colaboración, educación e investigación abierta en universidades y organismos de investigación de Colombia, Ecuador, Perú y Venezuela.
 ### Visión
