@@ -1,10 +1,11 @@
-Información general de RACIMO (Red Ambiental Ciudadana de Monitoreo)
+Información general de RACIMO 
+(Red Ambiental Ciudadana de Monitoreo)
 ====================================================================
 
 RACIMO, por Red Ambiental Ciudadana de Monitoreo es una propuesta que se ha venido implementando a través de varios proyectos
 financiados nacionales (colombia) e internacionales. Apunta a empoderar a los ciudadanos en la medición e interpretación de 
-los datos climáticos, en partircular de presencia de material particulado de 2.5 
-
+los datos climáticos, en partircular de presencia de material particulado de 2.5 $\mu$m
+$$
 
 La información detallada del proyecto se encuentra https://halley.uis.edu.co/tierra/
 
