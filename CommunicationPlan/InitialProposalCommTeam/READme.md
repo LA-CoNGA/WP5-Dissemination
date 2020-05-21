@@ -30,3 +30,5 @@ Los plazos son cortos y nuestro compromiso es enviar feedback al equipo de comun
   * Imagen de las fachadas de las universidades, con la mejor calidad posible (algunas universidades ya tienen imágenes en dron, sería ideal). Una opción es hacer enlace a videos institucionales de donde pueda extraerse algunos cortes, siempre que la universidad lo permita. Las oficinas de comunicación de cada universidad podrían ayudar, pero habría que evitar en este caso los trámites muy formales, para no enredarse en tiempos. Lo ideal es que cada universidad se vea lo suficientemente representada en las primeras imágenes. Nos gustaría tantear este escenario y sus posibles soluciones.
 
 Gracias de antemano!
+
+El contenido de esta carpeta no debe ser compartido más allá de los miembros del consorcio!
