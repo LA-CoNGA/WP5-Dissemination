@@ -13,7 +13,7 @@ El trabajo en el eje de comunicación continuará y se refinará en los próximo
 En la primera presentación (Revisión Comunicación Proyecto LA-CoNGA) el equipo presenta los ejes discursivos del proyecto, un slogan y modificaciones a la identidad visual del proyecto.
 se ha añadido información clave, como la url de los otros proyectos Erasmus, para tener referencia en la forma como otras experiencias están gestionando su visibilidad web.
 
-En la segunda presentació se incluye una url para mirar un video modelo. 
+En la segunda presentació se incluye una url para mirar un video modelo de presentación del proyecto para usar en la página web y redes sociales. Por favor, tengan en cuenta que es solo un modelo.
 También se ha añadido información sobre los plazos contemplados, éstos se gestionarán en la medida 
 en que los acuerdos entre los miembros del proyecto faciliten cerrar las fases en un tiempo perentorio.
 
