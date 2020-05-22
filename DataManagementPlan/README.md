@@ -1,3 +1,5 @@
+<h4>This is a draft 0 of the data managemnt plan. Please download and open the .docx version attached that contain more links and comments</h4>
+
 <h4>Data Summary</h4>
 This project aims at building and evaluating an on-line master program of High Energy Physics. The data output of the program will be a series of recorded lectures available in video, the material from the lectures and tutorials and collected data regarding the student quorum and performance. Data will be collected in the file formats … (estimated size of data: …). The methods of data collection and analysis are described in part ... of the proposal [Link/Deliverable X.X].
 FAIR Data
