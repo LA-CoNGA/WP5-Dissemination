@@ -1,0 +1,23 @@
+
+# LA-CoNGA physics: un caso de estudio para la colaboración en educación científica abierta entre América Latina y Europa
+
+## Resumen corto
+
+En América Latina y el Caribe, las comunidades de astrofísicos, astrónomos y físicos de partículas han sido pioneras en el establecimiento de Redes Virtuales de Docencia e Investigación (VRLC, por sus siglas en inglés), generando consorcios colaborativos internacionales en entornos virtuales de investigación. En esta presentación discutiremos una VRLC en particular, LA-CoNGA physics (alianza latinoamericana para el desarrollo de capacidades en física avanzada).
+
+LA-CoNGA physics tiene los valores de educación, datos y software abiertos en el corazón de sus operaciones. Una de sus temáticas centrales es la enseñanza de métodos de ingeniería de software y ciencia de datos para la investigación cientifíca reproducible usando Python. 
+
+La comunidad de la LA-CoNGA physics está compuesta por 11 universidades (3 en Europa y 8 en América Latina) y 12 socios industriales y de investigación. Estamos desarrollando una innovadora plataforma de e-learning distribuida en 8 universidades de Venezuela, Colombia, Ecuador y Perú. LA-CoNGA physics ofrecerá herramientas de acceso abierto de bajo costo, laboratorios de instrumentación interconectados y un plan de estudios flexible orientado a la resolución de problemas en una red de socios académicos e industriales. El proyecto es co-financiado por el programa Erasmus+ para el desarrollo de capacidades de la Comisión Europea.
+
+## Resumen largo 
+
+En la era de la tecnología de la información, la educación superior se está globalizando rápidamente y es inseparable de la investigación. Los vínculos entre las instituciones científicas, la sociedad y la industria se fortalecen y la discusión sobre la adopción de los principios de la ciencia abierta está sobre la mesa. Las Redes Virtuales de Docencia e Investigación (VRLC, por sus siglas en inglés) juegan un papel fundamental en este proceso de modernización e internacionalización de la educación superior. Las VRLC crean y ofrecen nuevas oportunidades: vínculos multi-institucionales que favorecen la internacionalización y la diversidad, la infraestructura interconectada, el intercambio de software y datos abiertos, la rentabilidad y el aumento de la producción científica (especialmente importante para las pequeñas instituciones). Además, los VRLC exponen a sus miembros (estudiantes, investigadores, profesores y técnicos) a una variedad de conceptos y técnicas de vanguardia que no son clásicamente o fácilmente accesibles. También ofrecen acceso a datos e instalaciones experimentales que no están disponibles localmente. En el contexto actual, los VRLC y las plataformas de e-learning están contribuyendo a resolver desafíos, como la educación a distancia durante la pandemia de COVID19.
+
+En América Latina y el Caribe, las comunidades de astrofísicos, astrónomos y físicos de partículas han sido pioneras en el establecimiento de VRLCs [1], generando consorcios productivos internacionales en entornos virtuales de investigación. Discutiremos una VRLC en particular, LA-CoNGA physics (alianza latinoamericana para el desarrollo de capacidades en física avanzada) [2].
+
+LA-CoNGA physics tiene los valores de educación, datos y software abiertos en el corazón de sus operaciones. La comunidad de la LA-CoNGA physics está compuesta por 11 universidades (3 en Europa y 8 en América Latina) y 12 socios industriales y de investigación. Estamos desarrollando una innovadora plataforma de e-learning distribuida en 8 universidades de Venezuela, Colombia, Ecuador y Perú. LA-CoNGA physics ofrecerá herramientas de acceso abierto de bajo costo, laboratorios de instrumentación interconectados y un plan de estudios flexible orientado a la resolución de problemas en una red de socios académicos (CERN, ICTP, DESY, RedCLARA) e industriales. El proyecto es co-financiado por el programa Erasmus+ para el desarrollo de capacidades de la Comisión Europea.
+
+LA-CoNGA physics contribuye a los objetivos de la Agenda para el Desarrollo Sostenible 2030. En particular, al ODS 4 (garantizar una educación de calidad inclusiva y equitativa y promover oportunidades de aprendizaje permanente para todos) y al ODS 9 (construir infraestructura sostenible, promover e industrialización sostenible y fomentar la innovación). En esta charla discutiremos la importancia, resultados y desafíos de estas redes en el contexto de la educación superior y la investigación en América Latina y el Caribe y en el contexto de crisis que vivimos hoy.
+
+[1] http://www.oecd.org/sti/inno/international-distributed-research-infrastructures.pdf
+[2] http://laconga.redclara.net
