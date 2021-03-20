@@ -1,0 +1,408 @@
+% Una plantilla para LA-CoNGA
+% Preguntas: JAL (trabajo en proceso)
+% Hecha modificando la siguiente plantilla:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Detallitos:
+% https://tex.stackexchange.com/questions/54667/how-can-i-clear-the-color-of-title-in-titlepage
+% https://tex.stackexchange.com/questions/178800/creating-sections-each-with-title-pages-in-beamers-slides
+% https://cepr.org/sites/default/files/events/1819_Creating%20Presentations%20for%20Widescreen%20laptops.pdf
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass[aspectratio=169,show notes]{beamer}
+
+%%%% Esta sección "acomoda" el texto de la lámina de una forma más acorde al diseño del fondo
+\makeatletter
+\setbeamertemplate{frametitle}{
+    \ifbeamercolorempty[bg]{frametitle}{}{\nointerlineskip}%
+    \@tempdima=\textwidth%
+    \advance\@tempdima by\beamer@leftmargin%
+    \advance\@tempdima by\beamer@rightmargin%
+    \hspace*{1cm} %%%%%%%%%%%%% For example insert shift to right
+    \begin{beamercolorbox}[sep=0.15cm,left,wd=\the\@tempdima]{frametitle}
+        \usebeamerfont{frametitle}%
+        \vbox{}\vskip-1ex%
+        \if@tempswa\else\csname beamer@ftecenter\endcsname\fi%
+        \strut\insertframetitle\strut\par%
+        {%
+            \ifx\insertframesubtitle\@empty%
+            \else%
+            {\usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\insertframesubtitle\strut\par}%
+            \fi
+        }%
+        \vskip-1ex%
+        \if@tempswa\else\vskip-.3cm\fi% set inside beamercolorbox... evil here...
+    \end{beamercolorbox}%
+}
+\makeatother
+
+%%%%%%%%%%%
+%%% Esta sección crea una lámina automática de inicio de sección
+%%%%%%%%%%%
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+\mode<presentation> {
+
+\usetheme{default}
+\setbeamertemplate{footline}[frame number]
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
+\usepackage[sfdefault]{roboto}  %% Option 'sfdefault' only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
+
+\usefonttheme[onlymath]{serif}
+
+\usepackage{fancyvrb}
+\usepackage{cprotect}
+
+\usepackage{hyperref}
+%\hypersetup{
+%    colorlinks=true,
+%    linkcolor=blue,
+%    filecolor=magenta,      
+%    urlcolor=cyan,
+%    }
+
+%Colores paleta manual de marca
+\definecolor{LCblueInst}{RGB}{50, 50, 123}
+\definecolor{LCredInst}{RGB}{237, 28, 36}
+\definecolor{LCblueSec1}{RGB}{21, 9, 88}
+\definecolor{LCblueSec2}{RGB}{191, 193, 215}
+\definecolor{LCblueSec3}{RGB}{247, 248, 249}
+
+%Colores aproximados a los usados en el logo
+\definecolor{logoyellow}{RGB}{245, 226, 0}
+\definecolor{logobrown}{RGB}{117, 80, 45}
+\definecolor{logobrownD}{RGB}{86, 42, 22}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning} 
+\tikzset{
+    %Define standard arrow tip
+    >=stealth',
+    %Define style for boxes
+    punkt/.style={
+           rectangle,
+           rounded corners,
+           draw=logobrown, very thick,
+           text width=4.5em,
+           minimum height=2em,
+           text centered},
+    % Define arrow style
+    pil/.style={
+           ->,
+           draw=logobrown,thick,
+           shorten <=2pt,
+           shorten >=2pt,}
+}
+\tikzstyle{resumen} = [rectangle, draw=LCredInst, very thick, fill=LCblueSec2, 
+    text width=3.7cm, text justified, rounded corners, minimum height=2cm]
+\tikzstyle{socio} = [rectangle,  draw=logobrown, very thick, fill=logoyellow, 
+    text width=5.5em, text centered, rounded corners, minimum height=2em]
+%
+\def\circledarrow#1#2#3{ % #1 Style, #2 Center, #3 Radius
+\draw[#1,->] (#2) +(60:#3) arc(60:-230:#3);
+}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title{LA-CoNGA-physics: Latin American alliance for Capacity buildiNG in Advanced physics}
+
+%\title[Short title]{LA-CoNGA} % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author{José Antonio López {\it (en nombre de LA-CoNGA-physics)}} % Your name
+\institute[UCV LA-CoNGA-physics] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+Universidad Central de Venezuela \\ % Your institution for the title page
+\textit{jose.lopez@ciens.ucv.ve} % Your email address
+}
+\date{20 de marzo de 2021} % Date, can be changed to a custom date
+
+%%%%%%%%%%%%%%%%%%%
+%% Colores para lámina de título fondo azul
+%%%%%%%%%%%%%%%%%%%
+\setbeamercolor*{title}{fg=white}
+\setbeamercolor*{author}{fg=white}
+\setbeamercolor*{institute}{fg=white}
+\setbeamercolor*{date}{fg=white}
+\setbeamercolor*{frametitle}{fg=white}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% Hay tres opciones de fondo para el titulo
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_1.jpg}}
+%\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_2.jpg}}
+%\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_3.jpg}}
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Cambio el fondo de la lámina según necesidad. El cambio permanece
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%
+%Los fondos 5, 6, 7 y 8 son creados para texto
+% 5 y 6 tienen gradiente de color (no son mis favoritos)
+% 5 y 7 tienen pie de pagina (no me funciona en este theme)
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_8.jpg}}
+\begin{frame}
+\frametitle{Contenido} % Table of contents slide, comment this block out to remove it
+\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% cada sección tiene una lámina intro automática
+% antes de iniciar una sección uso el fondo 4
+% luego de enunciar la sección, regreso al fondo 8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_4.jpg}}
+\section{¿Qué es LA-CoNGA-physics?} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_8.jpg}}
+%------------------------------------------------
+
+\input{queEsLaconga.tex}
+
+%------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Mosca: sección nueva
+%%%% Juego con el cambio de fondo: se pasa al 4 y se regresa al 8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_4.jpg}}
+\section{¿Quiénes somos?}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_8.jpg}}
+%------------------------------------------------
+
+\input{quienEsLaconga.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% cada sección tiene una lámina intro automática
+% antes de iniciar una sección uso el fondo 4
+% luego de enunciar la sección, regreso al fondo 8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_4.jpg}}
+\section{¿Qué queremos hacer?} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_8.jpg}}
+%------------------------------------------------
+
+\input{queQuiereLaconga.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% cada sección tiene una lámina intro automática
+% antes de iniciar una sección uso el fondo 4
+% luego de enunciar la sección, regreso al fondo 8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_4.jpg}}
+\section{¿Cómo lo vamos a hacer?} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_8.jpg}}
+%------------------------------------------------
+
+\input{comoLoQuiereLaconga.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% cada sección tiene una lámina intro automática
+% antes de iniciar una sección uso el fondo 4
+% luego de enunciar la sección, regreso al fondo 8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_4.jpg}}
+\section{LA-CoNGA paso a paso} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_8.jpg}}
+%------------------------------------------------
+
+\input{comoVaLaconga.tex}
+
+%------------------------------------------------
+%%%%%%%%%%%%%%%%%%
+%%% Última lámina: fondo 9
+%%%%%%%%%%%%%%%%%%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_9.jpg}}
+\begin{frame}
+%\Huge{\centerline{The End}}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_8.jpg}}
+\begin{frame}
+	\frametitle{Ecuaciones {\it serif}}
+	\begin{equation}
+		P^2=P^{\mu}P_{\mu}=m^2
+	\end{equation}
+	\begin{equation}
+		x^2 + y^2 = r^2
+	\end{equation}
+\end{frame}
+
+%\subsection{Subsection Example} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plantillas-laconga_8.jpg}}
+\begin{frame}
+\frametitle{Paragraphs of Text}
+Sed iaculis dapibus gravida. Morbi sed tortor erat, nec interdum arcu. Sed id lorem lectus. Quisque viverra augue id sem ornare non aliquam nibh tristique. Aenean in ligula nisl. Nulla sed tellus ipsum. Donec vestibulum ligula non lorem vulputate fermentum accumsan neque mollis.\\~\\
+
+Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. Aliquam vel dui orci, a porta odio. Nullam id suscipit ipsum. Aenean lobortis commodo sem, ut commodo leo gravida vitae. Pellentesque vehicula ante iaculis arcu pretium rutrum eget sit amet purus. Integer ornare nulla quis neque ultrices lobortis. Vestibulum ultrices tincidunt libero, quis commodo erat ullamcorper id.
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Bullet Points}
+\begin{itemize}
+\item Lorem ipsum dolor sit amet, consectetur adipiscing elit
+\item Aliquam blandit faucibus nisi, sit amet dapibus enim tempus eu
+\item Nulla commodo, erat quis gravida posuere, elit lacus lobortis est, quis porttitor odio mauris at libero
+\item Nam cursus est eget velit posuere pellentesque
+\item Vestibulum faucibus velit a augue condimentum quis convallis nulla gravida
+\end{itemize}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Blocks of Highlighted Text}
+\begin{block}{Block 1}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
+\end{block}
+
+\begin{block}{Block 2}
+Pellentesque sed tellus purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum quis magna at risus dictum tempor eu vitae velit.
+\end{block}
+
+\begin{block}{Block 3}
+Suspendisse tincidunt sagittis gravida. Curabitur condimentum, enim sed venenatis rutrum, ipsum neque consectetur orci, sed blandit justo nisi ac lacus.
+\end{block}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Multiple Columns}
+\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+
+\column{.45\textwidth} % Left column and width
+\textbf{Heading}
+\begin{enumerate}
+\item Statement
+\item Explanation
+\item Example
+\end{enumerate}
+
+\column{.5\textwidth} % Right column and width
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
+
+\end{columns}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Table}
+\begin{table}
+\begin{tabular}{l l l}
+\toprule
+\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
+\midrule
+Treatment 1 & 0.0003262 & 0.562 \\
+Treatment 2 & 0.0015681 & 0.910 \\
+Treatment 3 & 0.0009271 & 0.296 \\
+\bottomrule
+\end{tabular}
+\caption{Table caption}
+\end{table}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Theorem}
+\begin{theorem}[Mass--energy equivalence]
+$E = mc^2$
+\end{theorem}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
+\frametitle{Verbatim}
+\begin{example}[Theorem Slide Code]
+\begin{verbatim}
+\begin{frame}
+\frametitle{Theorem}
+\begin{theorem}[Mass--energy equivalence]
+$E = mc^2$
+\end{theorem}
+\end{frame}\end{verbatim}
+\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Figure}
+Uncomment the code on this slide to include your own image from the same directory as the template .TeX file.
+%\begin{figure}
+%\includegraphics[width=0.8\linewidth]{test}
+%\end{figure}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
+\frametitle{Citation}
+An example of the \verb|\cite| command to cite within the presentation:\\~
+
+This statement requires citation \cite{p1}.
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{References}
+\footnotesize{
+\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
+\bibitem[Smith, 2012]{p1} John Smith (2012)
+\newblock Title of the publication
+\newblock \emph{Journal Name} 12(3), 45 -- 678.
+\end{thebibliography}
+}
+\end{frame}
+
+
