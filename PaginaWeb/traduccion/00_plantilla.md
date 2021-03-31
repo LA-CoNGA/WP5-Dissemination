@@ -6,16 +6,16 @@
 <tr>
 <td>
 
-# English
+# Español
 
-English
+Español
 
 </td>
 <td>
 
-# Español
+# English
 
-Español
+English
 
 </td>
 </tr>
@@ -23,19 +23,10 @@ Español
 
 <table>
 <tr>
-<th> English </th>
 <th> Español </th>
+<th> English </th>
 </tr>
 <tr>
-<td>
-
-## English
-
-* English
-
-* English
-
-</td>
 <td>
 
 ## Español
@@ -43,6 +34,15 @@ Español
 * Español
 
 * Español
+
+</td>
+<td>
+
+## English
+
+* English
+
+* English
 
 </td>
 </tr>
