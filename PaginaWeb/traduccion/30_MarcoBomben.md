@@ -12,8 +12,10 @@
 Marco es un físico experimental de partículas italiano, docente en la Universidad de París e investigador en el Instituto nacional de física nuclear y física de partículas IN2P3 desde el 2014.
 
 Hizo sus estudios de pregrado en la Universidad de Trieste. En esa misma universidad obtuvo su doctorado en física en el 2007, analyzando datos del experimento BaBar. Fue post-doc en Trieste primero (2007-2010) y después en el Laboratorio de física nuclear y de altas energías (2010-2014).
- 
-Su tiempo alterna entre la investigación y la docencia. En ambas actividades, le gusta compartir con los estudiantes, cuyo progreso es para él la prioridad principal.
+
+En el 2010 se unió a la colaboración ATLAS del Gran Colisionador de Hadrones (LHC). Desde entonces trabaja en el desarrollo de trayectografía de silicio para la fase a alta luminosidad del LHC (HL-LHC).
+
+Alterna su tiempo entre la investigación y la docencia. En ambas actividades, le gusta compartir con los estudiantes, cuyo progreso es para él la prioridad principal.
 
 
 </td>
