@@ -17,7 +17,7 @@ En este campo he trabajado en una serie de proyectos de datos y software que van
 proyectos relacionados a la pandemia del Covid19 a la paleontología. 
 Me apasiona la colaboración interdisciplinaria y el impacto que proyectos de este estilo pueden tener en la solución de problemas actuales de nuestra sociedad.
 
-En [LA-CoNGA physics][laconga.redclara.net/] estaré involucrada en el modulo de Estadística  y mis puertas están abiertas para conversar sobre el mundo de la ciencia de datos, 
+En [LA-CoNGA physics][http://laconga.redclara.net/] estaré involucrada en el modulo de Estadística  y mis puertas están abiertas para conversar sobre el mundo de la ciencia de datos, 
 las buenas prácticas para la investigación reproducible y las ventajas de hacer ciencia abierta. 
  
 
